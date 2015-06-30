@@ -92,8 +92,8 @@ footer {
 }
 
 .log-in{
-	width: 220px;
-	height: 50px;
+	width: 150px;
+	height: 35px;
 	background-color:#fff;
 	margin: .625rem auto 0;
 	border: 5px solid #000;
@@ -102,12 +102,23 @@ footer {
 	border-radius: 10px;
 	font-size: 1.2rem;
 	text-transform: uppercase;
-	letter-spacing: -2.5px;
+	letter-spacing: 2px;
 
 }
 
-.log-in:hover{
-	cursor: pointer;
+.log-in-info{
+	width: 120px;
+	height: 35px;
+	background-color:#fff;
+	margin: .625rem auto 0;
+	border: 2px solid #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 10px;
+	font-size: 1rem;
+/*	text-transform: uppercase;*/
+	letter-spacing: 2px;
+
 }
 
 .clearFix{
