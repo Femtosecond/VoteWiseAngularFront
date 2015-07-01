@@ -11,11 +11,30 @@
 	</a>
 </div>
 
-<div class="row">
+<!-- <div class="row">
 	<input value="Username" class="log-in-info">
 	<input value="Password" class="log-in-info">
 	<input type="button" value="Login" class="log-in">
 </div>
+ -->
+
+<form name="loginForm" class="form-horizontal" role="form">
+    <div class="form-group">
+        <div class="col-sm-7">
+           <span class="block input-icon input-icon-right">
+                <input type="text" class="log-in-info" placeholder="Email" name="email" ng-model="login.email" required focus/>
+                <input type="password" class="log-in-info" placeholder="Password" ng-model="login.password" required/>
+           </span>
+        </div>
+    </div>
+        <div class="col-sm-7">
+            <button type="submit" class="log-in" ng-click="doLogin(login)">
+                <i class="ace-icon fa fa-key"></i>
+                Login
+            </button>
+        </div>
+</form>
+
 <br>
 <div class="wrapper">
 	<div><p></p></div>

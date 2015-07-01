@@ -13,12 +13,12 @@ app.config(['$routeProvider', function($routeProvider) {
 
 	  .when('/login', {
 	    templateUrl: 'loginRegister/login.html',
-	    controller: 'LoginCtrl'
+	    controller: 'AuthCtrl'
 	  })
 
 	  .when('/register', {
 	    templateUrl: 'loginRegister/register.html',
-	    controller: 'RegisterCtrl'
+	    controller: 'AuthCtrl'
 	  });
 
   
