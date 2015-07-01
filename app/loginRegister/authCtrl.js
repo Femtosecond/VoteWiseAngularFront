@@ -16,6 +16,7 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
     };
     $scope.signup = {email:'',password:'',name:'',phone:'',address:''};
     $scope.signUp = function (customer) {
+        console.log("Signup clicked with parameters: " + JSON.stringify($scope.signup));
         Data.post('signUp', {
             customer: customer
         }).then(function (results) {
