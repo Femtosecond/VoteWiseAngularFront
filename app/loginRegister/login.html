@@ -1,5 +1,9 @@
-<header class="container logo-home"></header>
-<div class="main">
+<html>
+<head>
+<title>Splash Page</title>
+</head>
+<div>
+<img class="votewise" src="img/VotewiseLogo.png"/></div>
 
 <div class="verticle-text">
 	<a href="#/register">
@@ -7,38 +11,36 @@
 	</a>
 </div>
 
-<div class="container interest">
-
-	<div class='row'>
-			<a href="#/voters">
-				<div class="voterbox portal"></div>
-		</a>
-
-			<a href="#/politicianbox">
-				<div class="politicianbox portal"></div>
-			</a>
-	</div>
-	<div class="row">
-		<input value="Username" class="log-in-info">
-
-		<input value="Password" class="log-in-info">
-	</div>
-	<div class="row"><input type="button" value="Login" class="log-in"></div>
-
-	<div class="clearFix"></div>
-
-	<div class="row">
-			<a href="#/interest-group">
-				<div class="interest-group portal"></div>
-			</a>
-
-			<a href="#/press">
-				<div class="press portal"></div>
-			</a>
-	</div>
-			
+<div class="row">
+	<input value="Username" class="log-in-info">
+	<input value="Password" class="log-in-info">
+	<input type="button" value="Login" class="log-in">
 </div>
+<br>
+<div class="wrapper">
+	<div><p></p></div>
+<style type="text/css">
+body{background-color: #ccccff}
 
+img {
+   width: 24%;
+   min-width: 150px;
+   max-width: 300px;
+} 
+ a img:hover {transform:scale(1.1);}
+ a img:active {transform:scale(1.5);}
+.votewise {align:center;}
+.votewise {width:100%; max-width:600px;}
+.log-in {text-align: center;}
+.wrapper{text-align: center;}
 
-<footer>
-</footer>
+</style>
+<a href="votervideo"> <img src="img/VOTER.svg"/> </a>
+<a href="politicianvideo"> <img src="img/POLITICIAN.svg"/></a>
+<a href="interestvideo"><img src="img/INTEREST_GROUP.svg"/></a>
+<a href="pressvideo"><img src="img/PRESS.svg"/></a>
+</div>
+<form action="#/register">
+    <input class="register-button" type="submit" value="Register New User">
+</form>
+</html>
