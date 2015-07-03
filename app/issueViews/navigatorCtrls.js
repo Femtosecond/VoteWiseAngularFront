@@ -20,7 +20,7 @@ app.controller('CivilLibertiesCtrl', function ($scope, $rootScope, $routeParams)
 	$scope.talkingPointsImage = 'img/CIVIL_LIBERTIES.svg';
 	$scope.subCategories = [{'issue': "Privacy"}, {'issue': "Marriage"}, {'issue': "Racial Profiling"}, {'issue': "Voting"}, {'issue': "LGBT"}];
 	for (var i = 0; i < 5; i++){
-		console.log(JSON.stringify($scope.subCategories[i]));
+		console.log("Subissues are ... " + JSON.stringify($scope.subCategories[i]));
 	}
 });
 

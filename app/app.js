@@ -94,6 +94,11 @@ app.config(['$routeProvider', function($routeProvider) {
       .when('/socialServices', {
         templateUrl: 'issueViews/category.html',
         controller: 'SocialServicesCtrl'
+      })
+
+      .when('/questions', {
+        templateUrl: 'issueViews/questions.html',
+        controller: 'QuestionsCtrl'
       });
 
   $routeProvider.otherwise({redirectTo: '/home'});
