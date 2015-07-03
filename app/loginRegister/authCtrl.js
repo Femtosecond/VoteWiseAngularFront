@@ -32,4 +32,22 @@ app.controller('AuthCtrl', function ($scope, $rootScope, $routeParams, $location
             $location.path('login');
         });
     }
+
+    $scope.setAccountType = function(type){
+        console.log("$scope.setAccountType activated");
+        console.log(type);
+        if (Number(type) == 1){
+            $scope.signup.type = 'voter';
+            console.log($scope.signup.type);
+        } else if (Number(type) == 2){
+            $scope.signup.type = 'politician';
+            console.log($scope.signup.type);
+        } else if (Number(type) == 3){
+            $scope.signup.type = "interestGroup"
+            console.log($scope.signup.type);
+        } else if (Number(type) == 4){
+            $scope.signup.type = "media";
+            console.log($scope.signup.type);
+        }
+    }
 });

@@ -55,12 +55,9 @@ img {
 .wrapper{text-align: center;}
 
 </style>
-<a href="votervideo"> <img src="img/VOTER.svg"/> </a>
-<a href="politicianvideo"> <img src="img/POLITICIAN.svg"/></a>
-<a href="interestvideo"><img src="img/INTEREST_GROUP.svg"/></a>
-<a href="pressvideo"><img src="img/PRESS.svg"/></a>
+<a href="#/register" ng-click="setAccountType(1)"> <img src="img/VOTER.svg"/> </a>
+<a href="#/register" ng-click="setAccountType(2)"> <img src="img/POLITICIAN.svg"/></a>
+<a href="#/register" ng-click="setAccountType(3)"><img src="img/INTEREST_GROUP.svg"/></a>
+<a href="#/register" ng-click="setAccountType(4)"><img src="img/PRESS.svg"/></a>
 </div>
-<form action="#/register">
-    <input class="register-button" type="submit" value="Register New User">
-</form>
 </html>
