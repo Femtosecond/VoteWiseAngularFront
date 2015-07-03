@@ -16,11 +16,9 @@
 		
 	<h2>{{title}}</h2>
 	<ul>
-		<li>Privacy</li>
-		<li>Marriage</li>
-		<li>Racial Profiling</li>
-		<li>Voting</li>
-		<li>LGBT</li>
+	    <li ng-repeat="issue in subCategories">
+	        {{issue.issue}}
+	    </li>
 	</ul>
 	
 

@@ -22,78 +22,78 @@ app.config(['$routeProvider', function($routeProvider) {
       })
 
       .when('/civilLiberties', {
-        templateUrl: 'issueViews/civilLiberties.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'CivilLibertiesCtrl'
       })
 
       .when('/crimeAndPunishment', {
-        templateUrl: 'issueViews/crimeAndPunishment.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'CrimeAndPunishmentCtrl'
       })
 
       .when('/education', {
-        templateUrl: 'issueViews/education.html',
-        controler: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controler: 'EducationCtrl'
       })
 
       .when('/energy', {
-        templateUrl: 'issueViews/energy.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'EnergyCtrl'
       })
 
       .when('/environment', {
-        templateUrl: 'issueViews/environment.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'EnvironmentCtrl'
       })
 
       .when('/gunControl', {
-        templateUrl: 'issueViews/gunControl.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'GunControlCtrl'
       })
 
       .when('/healthSafety', {
-        templateUrl: 'issueViews/healthSafety.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'HealthSafetyCtrl'
       })
 
       .when('/immigration', {
-        templateUrl: 'issueViews/immigration.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'ImmigrationCtrl'
       })
 
       .when('/infrastructure', {
-        templateUrl: 'issueViews/infrastructure.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'InfrastructureCtrl'
       })
 
       .when('/internationalRelations', {
-        templateUrl: 'issueViews/internationalRelations.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'InternationalRelationsCtrl'
       })
 
       .when('/jobsEconomy', {
-        templateUrl: 'issueViews/jobsEconomy.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'JobsEconomyCtrl'
       })
 
       .when('/qualityOfLife', {
-        templateUrl: 'issueViews/qualityOfLife.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'QualityOfLifeCtrl'
       })
 
       .when('/reproduction', {
-        templateUrl: 'issueViews/reproduction.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'ReproductionCtrl'
       })
 
       .when('/taxes', {
-        templateUrl: 'issueViews/taxes.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'TaxesCtrl'
       })
 
       .when('/socialServices', {
-        templateUrl: 'issueViews/socialServices.html',
-        controller: 'NavigatorCtrl'
+        templateUrl: 'issueViews/category.html',
+        controller: 'SocialServicesCtrl'
       });
 
   $routeProvider.otherwise({redirectTo: '/home'});

@@ -369,6 +369,7 @@ nav {
 
 .talking-points {
 	text-transform: uppercase;	
+	z-index: 2;
 }
 
 .talking-points h2 {
