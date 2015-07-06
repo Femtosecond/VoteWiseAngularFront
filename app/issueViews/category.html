@@ -10,19 +10,18 @@
 	</ul>
 	</div>
 </nav>
-<div class="main">
 
+<div class="main">
 <div class="talking-points">
 		
 	<h2>{{title}}</h2>
 	<ul>
-	    <li ng-repeat="issue in subCategories">
-	        {{issue.issue}}
+	    <li ng-repeat="issue in subCategories" style="list-style-type:none">
+	        <input type="radio" name="radio" ng-model="question.stance" ng-value="-1"> {{issue.issue}}
 	    </li>
 	</ul>
 	
 
 </div>
-<div class="overlay"><img src="{{talkingPointsImage}}"> </div>
-			
 </div>
+<!-- </div> -->

@@ -33,8 +33,10 @@ app.config(['$routeProvider', function($routeProvider) {
 
       .when('/education', {
         templateUrl: 'issueViews/category.html',
-        controler: 'EducationCtrl'
+        controller: 'EducationCtrl'
       })
+
+
 
       .when('/energy', {
         templateUrl: 'issueViews/category.html',

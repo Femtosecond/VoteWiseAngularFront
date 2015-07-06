@@ -24,7 +24,7 @@ app.controller('CivilLibertiesCtrl', function ($scope, $rootScope, $routeParams)
 app.controller('CrimeAndPunishmentCtrl', function ($scope, $rootScope, $routeParams) {
     console.log("Inside CrimeAndPunishmentCtrl");
     $scope.title = 'Crime and Punishment';
-    $scope.talkingPointsImage = 'img/CRIME_andPUNISHMENT.svg';
+    $scope.talkingPointsImage = 'img/CRIME_and_PUNISHMENT.svg';
     $scope.subCategories = [
         {'issue': "Police"},
         {'issue': "Punishment", 'subIssues': ["Civil Forfeiture"]},
@@ -40,7 +40,7 @@ app.controller('CrimeAndPunishmentCtrl', function ($scope, $rootScope, $routePar
 
 app.controller('EducationCtrl', function ($scope, $rootScope, $routeParams) {
     console.log("Inside EducationCtrl");
-    $scope.title = "Education";
+    $scope.title = 'Education';
     $scope.talkingPointsImage = 'img/EDUCATION.svg';
     $scope.subCategories = [
         {'issue': "Priorities"},
@@ -51,7 +51,9 @@ app.controller('EducationCtrl', function ($scope, $rootScope, $routeParams) {
         {'issue': "Standardized Tests"},
         {'issue': "Summer Recess"}
     ];
+
 });
+
 
 app.controller('EnergyCtrl', function ($scope, $rootScope, $routeParams) {
     console.log("Inside EnergyCtrl");
@@ -103,10 +105,10 @@ app.controller('HealthSafetyCtrl', function ($scope, $rootScope, $routeParams) {
     $scope.title = "Health and Safety";
     $scope.talkingPointsImage = "img/HEALTH-SAFETY.svg";
     $scope.subCategories = [
-        {'issue': "Billing Under Current System"},
+        {'issue': "Billing With Current System"},
         {'issue': "Tort Reform"},
-        {'issue': "Nationalized Healthcare"},
-        {'issue': "Benefits For Part Time Workers"},
+        {'issue': "Nationalized Care"},
+        {'issue': "Part Time Benefits"},
         {'issue': "Quality of Care"},
         {'issue': "Testing on Children"},
         {'issue': "Cost of Drugs", 'subIssues': ["Generic Drugs"]},
@@ -117,7 +119,7 @@ app.controller('HealthSafetyCtrl', function ($scope, $rootScope, $routeParams) {
 app.controller('ImmigrationCtrl', function ($scope, $rootScope, $routeParams) {
     console.log("Inside ImmigrationCtrl");
     $scope.title = "Immigration";
-    $scope.talkingPointsImage = "IMMIGRATION.svg";
+    $scope.talkingPointsImage = "img/IMMIGRATION.svg";
     $scope.subCategories = [
         {'issue': "Legal Immigration", 'subIssues': ["Immigrant Services"]},
         {'issue': "Illegal Immigration", 'subIssues': ["Services for Undocumented (Illegal) Immigrants"]}
