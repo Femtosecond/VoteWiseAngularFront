@@ -1,0 +1,44 @@
+.container.interest {
+	width: 78%;
+	height: 25.375rem;
+	margin: -1.125rem auto 0;
+}
+
+.mainInterests{
+	width:22.5rem;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.interest {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.interest li {
+	float: left;
+	margin: 5px;
+	width: 5.375rem;
+	height: 6.5rem;
+	line-height: 70%;
+}
+
+.interest img {
+	width: 5.375rem;
+	height: 5.375rem;
+}
+
+.interest a {
+	margin: 0 auto;
+	width: 5.375rem;
+	height: 1rem;
+	font-size: .75rem;
+	display:inline-block;
+
+}
+
+.interest a:hover{
+	color: lightyellow;
+}

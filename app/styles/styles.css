@@ -87,8 +87,20 @@ a:hover {
 	position: relative;
 
 }
-
-main:after {
+/*
+.backgroundImage {
+	position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+*/
+/*.main:after {
 	background-size: 110%;
 	opacity: 0.05;
 	position: absolute;
@@ -97,7 +109,7 @@ main:after {
 	z-index: 1;
 	width: 100%;
 	height: 150%;
-}
+}*/
 
 footer {
 	height: 5.625rem;
@@ -244,10 +256,68 @@ footer {
 	padding: .1rem 0;
 }
 
-.container.interest {
-	width: 78%;
-	height: 25.375rem;
-	margin: -1.125rem auto 0;
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+
+  padding: 0px;
+  min-height: 150px;
+  min-width: 150px;
+  max-height: 300px;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  
+  line-height: 10px;
+  color: white;
+
+}
+
+.flex-item img {
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	min-height: 150px;
+	min-width: 150px;
+	width: 70%;
+
+
+
+}
+
+.flex-item p {
+
+}
+
+.flex-item a {
+  font-weight: bold;
+  line-height: 15px;
+  font-size: 1em;
+  text-align: center;
+  	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+/*  line-height: 100px;
+*/}
+
+.flex-item a:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .portal{
@@ -308,6 +378,7 @@ nav {
 	width:22.5rem;
 	margin: 0 auto;
 	height: 2.5rem;
+	/*display: inline;*/
 }
 
 
@@ -335,38 +406,6 @@ nav {
 	opacity: 0;
 }
 
-.interest {
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.interest li {
-	float: left;
-	margin: 5px;
-	width: 5.375rem;
-	height: 6.5rem;
-	line-height: 70%;
-	
-}
-
-.interest img {
-	width: 5.375rem;
-	height: 5.375rem;
-}
-
-.interest a {
-	margin: 0 auto;
-	width: 5.375rem;
-	height: 1rem;
-	font-size: .75rem;
-
-}
-
-.interest a:hover{
-	color: lightyellow;
-}
-
 .overlay img{
 	background-size: 110%;
 	opacity: 0.05;
@@ -382,6 +421,10 @@ nav {
 .talking-points {
 	text-transform: uppercase;	
 	z-index: 2;
+}
+
+.talking-points div:after {
+
 }
 
 .talking-points h2 {
@@ -400,7 +443,7 @@ nav {
 	list-style: disc;
 	font-size: 1.5rem;
 	text-align: left;
-	margin-left: 4rem;
+	margin-left: 3rem;
 	margin-bottom: 0.8rem;
 }
 
@@ -566,7 +609,3 @@ form input.comments {
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
 	display: none !important;
 }
-
-
-
-
