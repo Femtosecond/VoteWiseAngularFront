@@ -36,8 +36,6 @@ app.config(['$routeProvider', function($routeProvider) {
         controller: 'EducationCtrl'
       })
 
-
-
       .when('/energy', {
         templateUrl: 'issueViews/category.html',
         controller: 'EnergyCtrl'

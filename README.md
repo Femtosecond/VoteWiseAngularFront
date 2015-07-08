@@ -1,3 +1,15 @@
+#### FOR VOTWISE ####
+#### FOR VOTWISE ####  when you get this make sure to: 
+#### FOR VOTWISE ####
+#### FOR VOTWISE ####   1. npm install
+#### FOR VOTWISE ####   
+#### FOR VOTWISE ####
+#### FOR VOTWISE ####
+#### FOR VOTWISE ####
+#### FOR VOTWISE ####
+
+
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
